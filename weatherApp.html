@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weatherApp.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div id="application-name">
+                <h1>Weather Dashboard</h1>
+            </div>
+        </header>
+    </section>
+             <div id="search-container">
+                <div id="search-items">
+                    <input type="text" id="city-input" name="city" placeholder="Enter city name: ">
+                    <button id="search-btn">Get Weather</button>
+                </div>
+             </div>
+    <section id="info">
+        <div id="weather-info" class="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+    </section>
+        <footer id="footer-block">
+            <div id="footer-div">
+                <p>&copy; 2024 Weather Dashboard</p>
+            </div>
+        </footer>
+    <script src="weatherApp.js"></script>
+</body>
+</html>

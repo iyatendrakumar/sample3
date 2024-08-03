@@ -5,7 +5,7 @@
 .container {
 /* max-width: 100%;  */
 margin: 0 auto;
-background-color: #4e4a4a;
+background-color: #ff738d;
 height:100px;
 justify-content: center;
 }
@@ -41,12 +41,12 @@ width:300px;
 }
 #search-btn {
 
-background-color: #4e4a4a;
+background-color: #ff738d;
 color: white;
 height: 40px;
 width: 150px;
 border-radius: 5px;
-box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+box-shadow:0 0 10px #ff738d;
 
 }
 
@@ -55,7 +55,7 @@ background-color: white;
 padding: 20px;
 border-radius: 5px;
 margin-top: 20px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+box-shadow: 0 0 10px #ff738d;
 align-items:center;
 align-content:center;
 justify-content:center;
@@ -64,16 +64,16 @@ text-align:center;
 }
 
 .weather-info h2 {
-color: #333;
+color: #4f363a;
 }
 
 .weather-info p {
-color: #666;
+color: #4f363a;
 }
 
 #footer-block {
 padding: 10px;
-background-color: #4e4a4a;
+background-color: #ff738d;
 color: white;
 bottom: 0;
 position: fixed;
